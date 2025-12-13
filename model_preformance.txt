@@ -1,0 +1,43 @@
+Signals found -> Longs: 215 | Shorts: 271
+Dataset: 8760 rows | Positive Signals: 757 (8.6%)
+Training Multi-Class XGBoost...
+
+Finding optimal threshold...
+Optimal Threshold Found: 0.52
+
+💰 FINAL BACKTEST RESULTS
+Starting Capital: 1.0
+Ending Capital:   1.0148
+Total Return:     1.48%
+Total Trades:     33
+Winning Trades:   14 (42.42%)
+Win Rate:         42.4%
+
+------ Classification Report ------
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93      1172
+           1       0.00      0.00      0.00        43
+           2       0.05      0.03      0.04        70
+
+    accuracy                           0.88      1285
+   macro avg       0.32      0.33      0.32      1285
+weighted avg       0.83      0.88      0.85      1285
+
+Confusion Matrix:
+[[1126    8   38]
+ [  43    0    0]
+ [  68    0    2]]
+
+------ Feature Importances ------
+trend_signal    0.129027
+atr_pct         0.121991
+dist_ema_50     0.116303
+dist_ema_200    0.109295
+macd_hist       0.103935
+bb_width        0.101402
+rsi             0.087752
+adx             0.086619
+bb_pos          0.084999
+vol_change      0.058677
+dtype: float32
