@@ -3,6 +3,8 @@
 > **⚠️ IMPORTANT WARNING:** This project is currently in the **BETA** phase (testing).
 > The AI model has been trained and optimized **exclusively for Bitcoin (BTC/USDT)**.
 > This software is for educational purposes only and does not constitute financial advice. Use at your own risk.
+>
+> Note: The file ```quantum_bot_v1.py``` is a simple 'playground' mode for trading short , without ML
 
 ## 📋 Overview
 **Quantum Brain** is an autonomous cryptocurrency trading bot powered by Machine Learning (**XGBoost**).
