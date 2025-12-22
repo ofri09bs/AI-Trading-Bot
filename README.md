@@ -1,4 +1,4 @@
-# 🧠 Quantum AI Trading Bot (BETA)
+# 🧠 AI Trading Bot (BETA)
 
 > **⚠️ IMPORTANT WARNING:** This project is currently in the **BETA** phase (testing).
 > The AI model has been trained and optimized **exclusively for Bitcoin (BTC/USDT)**.
